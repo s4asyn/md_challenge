@@ -91,6 +91,8 @@ modules.order
 # We don't want to ignore the following even if they are dot-files
 #
 !.clang-format
+!.clang-tidy
+!.clangd
 !.cocciconfig
 !.get_maintainer.ignore
 !.gitattributes

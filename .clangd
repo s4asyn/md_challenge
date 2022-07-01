@@ -1,0 +1,8 @@
+CompileFlags:
+  Remove:
+    - "-fno-allow-store-data-races"
+    - "-mindirect-branch-register"
+    - "-mindirect-branch=thunk-extern"
+    - "-mpreferred-stack-boundary=*"
+    - "-mrecord-mcount"
+    - "-fconserve-stack"
